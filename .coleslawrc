@@ -1,32 +1,28 @@
 ;;; -*- mode : lisp -*-
 (;; Required information
  :author "Ryan Gannon"                         ;; to be placed on post pages and in the copyright/CC-BY-SA notice
- :deploy-dir "deploy/"                   ;; for Coleslaw's generated HTML to go in
- :domain "https://iamrasputin.github.io" ;; to generate absolute links to the site content. Note: with :cname option of gh-pages, this requires a url scheme, e.g. https://fake.org
- :routing ((:post           "posts/~a")  ;; to determine the URL scheme of content on the site
+ :deploy-dir "deploy/"                ;; for Coleslaw's generated HTML to go in
+ :domain "https://iamrasputin.github.io"                           ;; to generate absolute links to the site content. Note: with :cname option of gh-pages, this requires a url scheme, e.g. https://fake.org
+ :routing ((:post           "posts/~a") ;; to determine the URL scheme of content on the site
+           (:page           "~d")
            (:tag-index      "tag/~a")
            (:month-index    "date/~a")
            (:numeric-index  "~d")
            (:feed           "~a.xml")
            (:tag-feed       "tag/~a.xml")
            (:sitemap        "~a.xml"))
- :title "Rasputin: Lisp Hacker, International Socialist" ;; a site title
+ :title "Rasputin: Programmer, International Socialist" ;; a site title
  :theme "hyde"                        ;; to select one of the themes in "coleslaw/themes/"
  
  ;; Optional information
  :excerpt-sep "<!--more-->"           ;; to set the separator for excerpt in content 
  :feeds ("lisp")
- :plugins ((analytics :tracking-code "foo")
-           (disqus :shortname "my-site-name")
-           ; (incremental)  ;; *Remove comment to enable incremental builds.
-           (mathjax)
+ :plugins ((mathjax)
            (sitemap)
            (static-pages)
            ;; deployment plugins
            ;; deployment to github pages
            (gh-pages :url "git@github.com:IAmRasputin/iamrasputin.github.io.git"
-                     :branch "gh-pages"
-                     :remote "origin"
                      :cname t  ;; if you want to use the custom domain --- see http://pages.github.com/
                      )
            ;; versioned deployment. Remove comment to enable symlinked, timestamped deploys.
@@ -34,11 +30,12 @@
            ;; default deploy method is rsync
            (rsync "-avz" "--delete" "--exclude" ".git/" "--exclude" ".gitignore" "--copy-links")
           )
- :sitenav ((:url "https://iamrasputin.github.io/" :name "Home")
-           (:url "https://twitter.com/IAmRasputin1917" :name "Twitter")
-           (:url "https://github.com/IAmRasputin" :name "Code")
-           (:url "https://firebrand.red" :name "Politics"))
- :staging-dir "./stage/"  ;; for Coleslaw to do intermediate work, default: "/tmp/coleslaw"
+ :sitenav ((:url "http://rmg.github.com/" :name "Home")
+           (:url "http://twitter.com/rmg" :name "Twitter")
+           (:url "http://github.com/rmg" :name "Code")
+           (:url "http://soundcloud.com/rmg" :name "Music")
+           (:url "http://redlinernotes.com/docs/talks/" :name "Talks"))
+ :staging-dir "/tmp/coleslaw/"  ;; for Coleslaw to do intermediate work, default: "/tmp/coleslaw"
 )
 
 ;; * Prerequisites described in plugin docs.
