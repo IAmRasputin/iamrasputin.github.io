@@ -1,7 +1,7 @@
 ;;; -*- mode : lisp -*-
 (;; Required information
  :author "Ryan Gannon"                         ;; to be placed on post pages and in the copyright/CC-BY-SA notice
- :deploy-dir "deploy/"                   ;; for Coleslaw's generated HTML to go in
+ :deploy-dir "."                   ;; for Coleslaw's generated HTML to go in
  :domain "https://iamrasputin.github.io/" ;; to generate absolute links to the site content. Note: with :cname option of gh-pages, this requires a url scheme, e.g. https://fake.org
  :routing ((:post           "posts/~a")  ;; to determine the URL scheme of content on the site
            (:tag-index      "tag/~a")
@@ -25,7 +25,7 @@
            ;; deployment plugins
            ;; deployment to github pages
            (gh-pages :url "git@github.com:IAmRasputin/iamrasputin.github.io.git"
-                     :branch "gh-pages"
+                     :branch "main"
                      :remote "origin"
                      :cname t  ;; if you want to use the custom domain --- see http://pages.github.com/
                      )
