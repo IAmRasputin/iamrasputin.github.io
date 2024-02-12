@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>Rasputin: Lisp Hacker, International Socialist</title> <link>https://iamrasputin.github.io/</link> <atom:link href="https://iamrasputin.github.io//rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Mon, 12 Feb 2024 14:29:15 -0500</pubDate> <item> <title>2024-02-12</title> <link>https://iamrasputin.github.io//posts/2024-02-12.html</link> <pubDate>2024-02-12 11:22:56</pubDate> <author>Ryan Gannon</author> <guid isPermaLink="true">https://iamrasputin.github.io//posts/2024-02-12.html</guid> <category><![CDATA[ bar ]]></category><category><![CDATA[ baz ]]></category> <description><![CDATA[ <!-- format: 'md'  -->
+
+<p>Here is my content.  It is in markdown.</p>
+
+<p>This is a website.</p>
+
+<!--more-->
+
+<p>Excerpt separator can also be extracted from content.
+Add <code>excerpt: &lt;string&gt;</code> to the above metadata.
+Excerpt separator is <code>&lt;!--more--&gt;</code> by default.</p>
+ ]]></description> </item> </channel> </rss>
