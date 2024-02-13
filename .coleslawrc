@@ -35,7 +35,7 @@
            (:url "https://twitter.com/IAmRasputin1917" :name "BirdSite")
            (:url "https://fosstodon.com/@IAmRasputin" :name "Mastodon")
            (:url "https://github.com/IAmRasputin" :name "Code")
-           (:url "https://firebrand.red" :name "Communism")
+           (:url "https://firebrand.red" :name "Communism"))
  :staging-dir "/tmp/coleslaw/"  ;; for Coleslaw to do intermediate work, default: "/tmp/coleslaw"
 )
 
