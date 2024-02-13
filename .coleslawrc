@@ -11,7 +11,7 @@
            (:tag-feed       "tag/~a.xml")
            (:sitemap        "~a.xml"))
  :title "Rasputin: Programmer, International Socialist" ;; a site title
- :theme "hyde"                        ;; to select one of the themes in "coleslaw/themes/"
+ :theme "readable"                        ;; to select one of the themes in "coleslaw/themes/"
  
  ;; Optional information
  :excerpt-sep "<!--more-->"           ;; to set the separator for excerpt in content 
