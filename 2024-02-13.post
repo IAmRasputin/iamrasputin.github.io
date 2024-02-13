@@ -1,0 +1,17 @@
+;;;;;
+title: 2024-02-13
+tags: bar, baz
+date: 2024-02-13 12:59:26
+format: md
+;;;;;
+
+<!-- **** your post here (remove this line) **** -->
+<!-- format: could be 'html' (for raw html) or 'md' (for markdown).  -->
+
+Here is my content.
+
+<!--more-->
+
+Excerpt separator can also be extracted from content.
+Add `excerpt: <string>` to the above metadata.
+Excerpt separator is `<!--more-->` by default.
