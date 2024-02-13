@@ -21,14 +21,14 @@
            (static-pages)
            ;; deployment plugins
            ;; deployment to github pages
-           (gh-pages :url "git@github.com:IAmRasputin/iamrasputin.github.io.git"
-                     :branch "gh-pages"
-                     :remote "origin"
-                     :cname t  ;; if you want to use the custom domain --- see http://pages.github.com/
-                     )
-           ;; versioned deployment. Remove comment to enable symlinked, timestamped deploys.
-           ; (versioned)
-           ;; default deploy method is rsync
+           ;;(gh-pages :url "git@github.com:IAmRasputin/iamrasputin.github.io.git"
+           ;;          :branch "gh-pages"
+           ;;          :remote "origin"
+           ;;          :cname t  ;; if you want to use the custom domain --- see http://pages.github.com/
+           ;;          )
+           ;;;; versioned deployment. Remove comment to enable symlinked, timestamped deploys.
+           ;;; (versioned)
+           ;;;; default deploy method is rsync
            (rsync "-avz" "--delete" "--exclude" ".git/" "--exclude" ".gitignore" "--copy-links")
           )
  :sitenav ((:url "http://rmg.github.com/" :name "Home")
