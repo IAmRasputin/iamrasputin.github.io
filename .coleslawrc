@@ -31,11 +31,11 @@
            ;;;; default deploy method is rsync
            (rsync "-avz" "--delete" "--exclude" ".git/" "--exclude" ".gitignore" "--copy-links")
           )
- :sitenav ((:url "http://rmg.github.com/" :name "Home")
-           (:url "http://twitter.com/rmg" :name "Twitter")
-           (:url "http://github.com/rmg" :name "Code")
-           (:url "http://soundcloud.com/rmg" :name "Music")
-           (:url "http://redlinernotes.com/docs/talks/" :name "Talks"))
+ :sitenav ((:url "https://iamrasputin.github.com/" :name "Home")
+           (:url "https://twitter.com/IAmRasputin1917" :name "BirdSite")
+           (:url "https://fosstodon.com/@IAmRasputin" :name "Mastodon")
+           (:url "https://github.com/IAmRasputin" :name "Code")
+           (:url "https://firebrand.red" :name "Communism")
  :staging-dir "/tmp/coleslaw/"  ;; for Coleslaw to do intermediate work, default: "/tmp/coleslaw"
 )
 
