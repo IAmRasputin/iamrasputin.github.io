@@ -1,7 +1,5 @@
 ;;;;;
-title: IAmRasputin
-tags: bar, baz
-date: 2024-02-12 21:54:39
+title: I Am Rasputin
 format: md
 URL: index.html
 ;;;;;
@@ -11,9 +9,3 @@ URL: index.html
 
 # Finally!
 Hello.
-
-<!--more-->
-
-Excerpt separator can also be extracted from content.
-Add `excerpt: <string>` to the above metadata.
-Excerpt separator is `<!--more-->` by default.
