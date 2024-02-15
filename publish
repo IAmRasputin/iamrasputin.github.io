@@ -2,10 +2,10 @@
 (load "~/.sbclrc")
 (ql:quickload '(coleslaw-cli legit))
 
-(legit:git-commit :all t :message "\"Push changes to deploy\"")
 (coleslaw-cli:deploy)
+(legit:git-commit :all t :message "\"Push changes to deploy\"")
 (write-line "?????")
 (uiop:run-program '("git" "subtree" "push" "--prefix" "deploy" "origin" "gh-pages"))
 (write-line "!!!!!")
-(legit:git-commit :all t :message "new deploy")
+(legit:git-commit :all t :message "post-deploy")
 (legit:git-push)
