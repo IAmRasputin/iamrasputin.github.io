@@ -32,7 +32,7 @@
            (rsync "-avz" "--delete" "--exclude" ".git/" "--exclude" ".gitignore" "--copy-links")
           )
  :sitenav ((:url "https://iamrasputin.github.io/" :name "Home")
-           (:url "https://twitter.com/IAmRasputin1917" :name "Twitter")
+           (:url "https://twitter.com/IAmRasputin1917" :name "Twitter?")
            (:url "https://fosstodon.com/@IAmRasputin" :name "Mastodon")
            (:url "https://github.com/IAmRasputin" :name "Code")
            (:url "https://firebrand.red" :name "Communism"))
