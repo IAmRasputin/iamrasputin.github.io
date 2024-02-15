@@ -7,5 +7,4 @@
 (write-line "?????")
 (uiop:run-program '("git" "subtree" "push" "--prefix" "deploy" "origin" "gh-pages"))
 (write-line "!!!!!")
-(legit:git-commit :all t :message "\"post-deploy\"")
 (legit:git-push)
