@@ -4,6 +4,6 @@
 
 (legit:git-commit :all t :message "\"Push changes to deploy\"")
 (coleslaw-cli:deploy)
-(uiop:run-program "git subtree push --prefix deploy/ origin gh-pages")
+(uiop:run-program "git subtree push --prefix deploy origin gh-pages")
 (legit:git-commit :all t :message "new deploy")
 (legit:git-push)
