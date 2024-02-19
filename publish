@@ -4,7 +4,5 @@
 
 (coleslaw-cli:deploy)
 (legit:git-commit :all t :message "\"Push changes to deploy\"")
-(write-line "?????")
 (uiop:run-program '("git" "subtree" "push" "--prefix" "deploy" "origin" "gh-pages"))
-(write-line "!!!!!")
 (legit:git-push)
