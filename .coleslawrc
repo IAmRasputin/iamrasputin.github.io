@@ -11,7 +11,7 @@
            (:tag-feed       "tag/~a.xml")
            (:sitemap        "~a.xml"))
  :title "Rasputin: Programmer, International Socialist" ;; a site title
- :theme "readable"                        ;; to select one of the themes in "coleslaw/themes/"
+ :theme "rmg-theme"                        ;; to select one of the themes in "coleslaw/themes/"
  
  ;; Optional information
  :excerpt-sep "<!--more-->"           ;; to set the separator for excerpt in content 
@@ -31,8 +31,8 @@
            ;;;; default deploy method is rsync
            (rsync "-avz" "--delete" "--exclude" ".git/" "--exclude" ".gitignore" "--copy-links")
           )
- :sitenav ((:url "https://iamrasputin.github.com/" :name "Home")
-           (:url "https://twitter.com/IAmRasputin1917" :name "BirdSite")
+ :sitenav ((:url "https://iamrasputin.github.io/" :name "Home")
+           (:url "https://twitter.com/IAmRasputin1917" :name "Twitter")
            (:url "https://fosstodon.com/@IAmRasputin" :name "Mastodon")
            (:url "https://github.com/IAmRasputin" :name "Code")
            (:url "https://firebrand.red" :name "Communism"))

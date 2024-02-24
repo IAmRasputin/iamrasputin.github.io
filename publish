@@ -1,0 +1,8 @@
+#!/bin/env -S sbcl --script
+(load "~/.sbclrc")
+(ql:quickload '(coleslaw-cli legit))
+
+(coleslaw-cli:deploy)
+(legit:git-commit :all t :message (format nil "\"deploy commit ~d\"" (get-universal-time)))
+(uiop:run-program '("git" "subtree" "push" "--prefix" "deploy" "origin" "gh-pages"))
+(legit:git-push)
