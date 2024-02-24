@@ -193,7 +193,7 @@ textarea {
 
 body {
     margin: 0;
-    font-family: "Lora",Georgia,"Times New Roman",Times,serif;
+    font-family: Courier,"Courier New",monospace;
     font-size: 17px;
     line-height: 26px;
     color: #333;
