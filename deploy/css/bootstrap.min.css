@@ -1,5 +1,5 @@
 @import url('//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap')
 /*!
  * Bootstrap v2.3.2
  *
@@ -3942,7 +3942,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
     padding: 4px 14px;
     margin-bottom: 0;
-    font-family: "Courier New",Courier,monospace;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 13px;
     font-weight: normal;
     line-height: 1;
