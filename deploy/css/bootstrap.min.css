@@ -1,4 +1,5 @@
 @import url('//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
 /*!
  * Bootstrap v2.3.2
  *
@@ -193,7 +194,7 @@ textarea {
 
 body {
     margin: 0;
-    font-family: "Lora",Georgia,"Times New Roman",Times,serif;
+    font-family: "Lora",Georgia,"Times New Roman",,sanserif;
     font-size: 17px;
     line-height: 26px;
     color: #333;
@@ -689,7 +690,7 @@ a.text-success:hover,a.text-success:focus {
 
 h1,h2,h3,h4,h5,h6 {
     margin: 13px 0;
-    font-family: inherit;
+    font-family: "Montserrat",sans-serif;
     font-weight: bold;
     line-height: 26px;
     color: inherit;
@@ -986,7 +987,7 @@ label,input,button,select,textarea {
 }
 
 input,button,select,textarea {
-    font-family: "Lora",Georgia,"Times New Roman",Times,serif
+    font-family: "Courier New",Courier,monospace;
 }
 
 label {
@@ -3941,7 +3942,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
     padding: 4px 14px;
     margin-bottom: 0;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Courier New",Courier,monospace;
     font-size: 13px;
     font-weight: normal;
     line-height: 1;
