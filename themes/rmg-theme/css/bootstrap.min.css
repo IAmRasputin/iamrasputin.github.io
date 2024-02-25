@@ -1,5 +1,5 @@
 @import url('//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 /*!
  * Bootstrap v2.3.2
  *
@@ -194,7 +194,7 @@ textarea {
 
 body {
     margin: 0;
-    font-family: "Lora",Georgia,"Times New Roman",,sanserif;
+    font-family:"Roboto",sanserif;
     font-size: 17px;
     line-height: 26px;
     color: #333;
@@ -901,7 +901,7 @@ address {
 
 code,pre {
     padding: 0 3px 2px;
-    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-family: "Courier New",Courier,monospace;
     font-size: 15px;
     color: #333;
     -webkit-border-radius: 3px;
@@ -3857,6 +3857,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini {
     padding: 17px 20px 17px;
     margin-left: -20px;
     font-size: 20px;
+    font-family: "Roboto Condensed",sans-serif
     font-weight: 200;
     color: #333;
     text-shadow: 0 1px 0 #f6f6f6
