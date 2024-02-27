@@ -1,9 +1,9 @@
 #!/bin/env -S sbcl --script
 (load "~/.sbclrc")
-(ql:quickload '(coleslaw-cli legit))
+(ql:quickload '(coleslaw-cli legit cl-readline))
 (coleslaw-cli:deploy)
 ;; this should hopefully pick up untracked files
 (legit:git-add :all t)
-(legit:git-commit :all t :message (format nil "\"deploy commit ~d\"" (get-universal-time)))
+(legit:git-commit :all t :message (cl-readline:readline :prompt "Enter commit message: "))
 (uiop:run-program '("git" "subtree" "push" "--prefix" "deploy" "origin" "gh-pages"))
 (legit:git-push)
