@@ -10,7 +10,7 @@
            (:feed           "~a.xml")
            (:tag-feed       "tag/~a.xml")
            (:sitemap        "~a.xml"))
- :title "Rasputin: Programmer, International Socialist" ;; a site title
+ :title "Rasputin: Revolutionary Socialism and Free Software" ;; a site title
  :theme "rmg-theme"                        ;; to select one of the themes in "coleslaw/themes/"
  
  ;; Optional information
