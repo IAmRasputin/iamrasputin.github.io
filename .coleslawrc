@@ -33,7 +33,7 @@
           )
  :sitenav ((:url "https://iamrasputin.github.io/" :name "Home")
            (:url "https://twitter.com/IAmRasputin1917" :name "Twitter")
-           (:url "https://fosstodon.com/@IAmRasputin" :name "Mastodon")
+           (:url "https://fosstodon.org/@IAmRasputin" :name "Mastodon")
            (:url "https://github.com/IAmRasputin" :name "Code")
            (:url "https://firebrand.red" :name "Communism"))
  :staging-dir "/tmp/coleslaw/"  ;; for Coleslaw to do intermediate work, default: "/tmp/coleslaw"
